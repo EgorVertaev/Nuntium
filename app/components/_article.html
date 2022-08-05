@@ -1,0 +1,28 @@
+<article class="article">
+  <span class="article__subtitle">
+    @@subtitle
+  </span>
+  <h2 class="article__title">
+    @@title
+  </h2>
+  <div class="article__info">
+      <span class="article__author">
+        @@author
+      </span>
+      <time class="article__data" datetime="07-15">
+          <span class="article__month">@@Mounth</span>
+          <span class="article__num">@@number</span>
+          <span class="article__year">@@Year</span>
+      </time>
+      <span class="article__time-read">
+          @@ if(readtime === true) {
+            (<span>@@read</span> mins read)
+          }
+      </span>
+  </div>
+  <div class="article__content">
+      <p>
+          @@body
+      </p>
+  </div>
+</article>

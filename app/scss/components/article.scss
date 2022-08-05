@@ -1,0 +1,40 @@
+.article {
+
+  &__subtitle {
+    text-transform: uppercase;
+    color: $gray;
+    font-size: 20px;
+  }
+
+  &__title {
+    font-family: $f-LB;
+    font-size: 33px;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+
+  &__info {
+    margin-bottom: 14px;
+    color: $gray
+  }
+
+  &__author {
+    margin-right: 22px;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 3px;
+      height: 3px;
+      border-radius: 50%;
+      background-color: $gray;
+      right: -11px;
+      top: 10px;
+    }
+  }
+
+  &__content {
+    line-height: 1.6;
+  }
+}
