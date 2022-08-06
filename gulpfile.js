@@ -29,7 +29,6 @@ function styles() {
         grid: true
     }))
     .pipe(dest('./build/css')) 
-    
     .pipe(browserSync.stream())
 }   
 

@@ -1,74 +1,7 @@
-.header {
-  padding-top: 31px;
-  font-family: $f-LB;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.25;
-  margin-bottom: 43px;
-  
-  &__wrapper {
-    display: flex;
-    align-items: center;
-  }
-
-  &__logo {
-    margin-right: 31px;
-  }
-
-  &__nav {
-    margin-right: auto;
-  }
-
-  &__list {
-    display: flex;
-    color: $black
-  }
-
-  &__item:not(:last-child) {
-     margin-right: 31px;
-  }
-
-  &__btn {
-    padding: 11px 35px;
-    color: $semi-black;
-    border: 2px solid $semi-black;
-    border-radius: 10px;    
-  }
-
-  &__right {
-    display: flex;
-  }
-
-  &__search {
-    position: relative;
-  }
-
-  &__form {
-    position: relative;
-    margin-right: 21px;
-  }
-
-  &__input {
-    padding: 11px 45px 11px 20px;
-    color: $semi-black;
-    border: 2px solid $semi-black;
-    border-radius: 10px;    
-    font-family: $f-OS;
-    font-size: 20px;
-    font-weight: 400;
-  }
-
-  &__search-btn {
-    position: absolute;
-    top: 10px;
-    right: 14px;
-  }
-}
-
 .article-section {
   margin-bottom: 50px;
 
-  &__wrapper { 
+  &__wrapper {
     height: 592px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -96,6 +29,10 @@
 
   &--second {
     margin-bottom: 96px;
+  }
+
+  &--top {
+    padding-top: 43px;
   }
 }
 
@@ -146,7 +83,6 @@
 }
 
 .posts {
-
   &__inner {
     display: flex;
     justify-content: center;
@@ -183,9 +119,5 @@
 
   &__tags-item {
     margin-bottom: 27px;
-
   }
 }
-
-
-
