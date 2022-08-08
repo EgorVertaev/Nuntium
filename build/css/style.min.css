@@ -576,7 +576,7 @@ body {
   height: 391px;
   top: -100px;
   left: -30px;
-  background-image: url("../../images/content/about2.jpg");
+  background-image: url("../images/content/about2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -748,6 +748,7 @@ body {
   color: rgba(28, 28, 28, 0.5);
   margin-bottom: 13px;
 }
+
 .pagination {
   font-family: "Libre Baskerville", serif;
   font-size: 20px;
