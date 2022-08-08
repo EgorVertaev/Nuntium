@@ -1,130 +1,273 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.min.css">
-    <title>nuntium | Home</title>
-</head>
-<body>
-  @@include('./components/_header.html')
-  <main>
-    <div class="tags">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <title>nuntium | Tags</title>
+  </head>
+  <body>
+    <header class="header">
       <div class="container">
-        <div class="tags__wrapper">
-          <form class="tags__form" action="#">
-            <input class="tags__imput" type="text" name="tags-search" placeholder="Find the topics you care about...">
-            <button class="tags__btn" type="submit">
-                f
-            </button>
-          </form>
-          <div class="tags__inner">
-            <ul class="tags__list">
-              <li class="tags__item">
-                <button class="tags__button">
-                  #technology
-                </button>
+        <div class="header__wrapper">
+          <a class="header__logo" href="#">
+            <img
+              src="./images/content/Logo.svg"
+              alt="Logo"
+              height="57px"
+              width="178px"
+            />
+          </a>
+          <div class="header__nav">
+            <ul class="header__list">
+              <li class="header__item">
+                <a class="header__link" href="../index.html">Home</a>
               </li>
-              <li class="tags__item">
-                <button class="tags__button">
-                  #lifeandlove
-                </button>
+              <li class="header__item header__item--active">
+                <a class="header__link" href="../tags.html">Tags</a>
               </li>
-              <li class="tags__item">
-                <button class="tags__button">
-                  #essentialism
-                </button>
-              </li>
-              <li class="tags__item">
-                <button class="tags__button">
-                  #webdevelopment
-                </button>
-              </li>
-              <li class="tags__item">
-                <button class="tags__button">
-                  #fashion
-                </button>
-              </li>
-              <li class="tags__item">
-                <button class="tags__button">
-                  #lifestyle
-                </button>
-              </li>
-              <li class="tags__item">
-                <button class="tags__button">
-                  #architecture
-                </button>
-              </li>
-              <li class="tags__item">
-                <button class="tags__button">
-                  #sports
-                </button>
-              </li>
-              <li class="tags__item">
-                <button class="tags__button">
-                  #entertainment
-                </button>
-              </li>
-              <li class="tags__item">
-                <button class="tags__button">
-                  #culinaryarts
-                </button>
-              </li>
-              <li class="tags__item">
-                <button class="tags__button">
-                  #travel
-                </button>
-              </li>
-              <li class="tags__item">
-                <button class="tags__button">
-                  #worldhistory
-                </button>
-              </li>
-              <li class="tags__item">
-                <button class="tags__button">
-                  #aeronautics
-                </button>
-              </li>
-              <li class="tags__item">
-                <button class="tags__button">
-                  #games
-                </button>
-              </li>
-              <li class="tags__item">
-                <button class="tags__button">
-                  #finearts
-                </button>
-              </li>
-              <li class="tags__item">
-                <button class="tags__button">
-                  #graphicdesign
-                </button>
-              </li>
-              <li class="tags__item">
-                <button class="tags__button">
-                  #filmmaking
-                </button>
-              </li>
-              <li class="tags__item">
-                <button class="tags__button">
-                  #bitcoin
-                </button>
-              </li>
-              <li class="tags__item">
-                <button class="tags__button">
-                  #computers
-                </button>
-              </li>
-              <li class="tags__item">
-                <button class="tags__button">
-                  #machinelearning
-                </button>
+              <li class="header__item">
+                <a class="header__link" href="../about.html">About </a>
               </li>
             </ul>
           </div>
+          <div class="header__right">
+            <div class="header__search">
+              <form action="#" class="header__form">
+                <input class="header__input" type="text" name="search" />
+                <button class="header__search-btn" type="submit">
+                  <img src="./images/content/search.svg" alt="search" />
+                </button>
+              </form>
+            </div>
+            <button class="header__btn" type="button">Login</button>
+          </div>
         </div>
       </div>
-    </div>
-  </main>
-</body>
+    </header>
+    <main>
+      <div class="tags">
+        <div class="container">
+          <div class="tags__wrapper">
+            <form class="tags__form" action="#">
+              <input
+                class="tags__imput"
+                type="text"
+                name="tags-search"
+                placeholder="Find the topics you care about..."
+              />
+              <button class="tags__btn" type="submit">
+                <img src="./images/content/search.svg" alt="search" />
+              </button>
+            </form>
+            <div class="tags__inner">
+              <ul class="tags__list">
+                <li class="tags__item">
+                  <button class="tags__button">#technology</button>
+                </li>
+                <li class="tags__item">
+                  <button class="tags__button">#lifeandlove</button>
+                </li>
+                <li class="tags__item">
+                  <button class="tags__button">#essentialism</button>
+                </li>
+                <li class="tags__item">
+                  <button class="tags__button">#webdevelopment</button>
+                </li>
+                <li class="tags__item">
+                  <button class="tags__button">#fashion</button>
+                </li>
+                <li class="tags__item">
+                  <button class="tags__button">#lifestyle</button>
+                </li>
+                <li class="tags__item">
+                  <button class="tags__button">#architecture</button>
+                </li>
+                <li class="tags__item">
+                  <button class="tags__button">#sports</button>
+                </li>
+                <li class="tags__item">
+                  <button class="tags__button">#entertainment</button>
+                </li>
+                <li class="tags__item">
+                  <button class="tags__button">#culinaryarts</button>
+                </li>
+                <li class="tags__item">
+                  <button class="tags__button">#travel</button>
+                </li>
+                <li class="tags__item">
+                  <button class="tags__button">#worldhistory</button>
+                </li>
+                <li class="tags__item">
+                  <button class="tags__button">#aeronautics</button>
+                </li>
+                <li class="tags__item">
+                  <button class="tags__button">#games</button>
+                </li>
+                <li class="tags__item">
+                  <button class="tags__button">#finearts</button>
+                </li>
+                <li class="tags__item">
+                  <button class="tags__button">#graphicdesign</button>
+                </li>
+                <li class="tags__item">
+                  <button class="tags__button">#filmmaking</button>
+                </li>
+                <li class="tags__item">
+                  <button class="tags__button">#bitcoin</button>
+                </li>
+                <li class="tags__item">
+                  <button class="tags__button">#computers</button>
+                </li>
+                <li class="tags__item">
+                  <button class="tags__button">#machinelearning</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="search-result">
+        <header class="header">
+          <div class="container">
+            <div class="header__wrapper">
+              <a class="header__logo" href="#">
+                <img
+                  src="./images/content/Logo.svg"
+                  alt="Logo"
+                  height="57px"
+                  width="178px"
+                />
+              </a>
+              <div class="header__nav">
+                <ul class="header__list">
+                  <li class="header__item">
+                    <a class="header__link" href="../index.html">Home</a>
+                  </li>
+                  <li class="header__item header__item--active">
+                    <a class="header__link" href="../tags.html">Tags</a>
+                  </li>
+                  <li class="header__item">
+                    <a class="header__link" href="../about.html">About </a>
+                  </li>
+                  <li class="header__item">
+                    <a class="header__link" href="../article-page.html"
+                      >article-page</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="header__right">
+                <div class="header__search">
+                  <form action="#" class="header__form">
+                    <input class="header__input" type="text" name="search" />
+                    <button class="header__search-btn" type="submit">
+                      <img src="./images/content/search.svg" alt="search" />
+                    </button>
+                  </form>
+                </div>
+                <button class="header__btn" type="button">Login</button>
+              </div>
+            </div>
+          </div>
+        </header>
+        <div class="search-result__form">
+          <div class="container">
+            <div class="search-result__wrapper">
+              <form class="tags__form" action="#">
+                <input
+                  class="tags__imput"
+                  type="text"
+                  name="tags-search"
+                  placeholder="Find the topics you care about..."
+                />
+                <button class="tags__btn" type="submit">
+                  <img src="./images/content/search.svg" alt="search" />
+                </button>
+              </form>
+              <section class="result">
+                <div class="container">
+                  <ul class="result__list">
+                    <li class="result__item">
+                      <div class="result__img">
+                        <img src="./images/content/result1.jpg" alt="photo">
+                      </div>
+                      <div class="result__article">
+                        @@include('./components/_article.html', {
+                          "subtitle": "",
+                          "title": "Adipisicing Laris Cupidatat do",
+                          "author": "Lee Russell",
+                          "Mounth": "November",
+                          "number": "3,",
+                          "Year": "2012",
+                          "readtime": false,
+                          "read": "6",
+                          "body": "Irure veniam ex do aliqua esse irure voluptate ipsum labore nisi ullamco consequat ex adipisicing mollit aliqua elit ipsum sit labore elit Lorem laborum qui pariatur cillum irure cillum qui excepteur ex commodo labore sunt labore dolor culpa aliquip veniam",
+                      })
+                      </div>
+                    </li>
+                    <li class="result__item">
+                      <div class="result__img">
+                        <img src="./images/content/result2.jpg" alt="photo">
+                      </div>
+                      <div class="result__article">
+                        @@include('./components/_article.html', {
+                          "subtitle": "",
+                          "title": "Sunt ea Aute Anim",
+                          "author": "Victoria Watson",
+                          "Mounth": "March",
+                          "number": "2,",
+                          "Year": "2014",
+                          "readtime": false,
+                          "read": "6",
+                          "body": "Mollit ad ad exercitation sunt sunt in aliquip deserunt exercitation officia cillum sunt dolore mollit duis commodo aliquip commodo Lorem minim nostrud in deserunt occaecat reprehenderit cillum laboris nostrud ut irure id in enim et nisi aute ex esse velit",
+                      })
+                      </div>
+                    </li>
+                    <li class="result__item">
+                      <div class="result__img">
+                        <img src="./images/content/result3.jpg" alt="photo">
+                      </div>
+                      <div class="result__article">
+                        @@include('./components/_article.html', {
+                          "subtitle": "",
+                          "title": "Consectetur esse Exercitation",
+                          "author": "Ronald Hawkins",
+                          "Mounth": "December",
+                          "number": "25,",
+                          "Year": "2019",
+                          "readtime": false,
+                          "read": "6",
+                          "body": "Laboris ipsum aute reprehenderit cillum duis mollit est id in anim ea irure incididunt cillum deserunt occaecat do duis enim aliquip tempor officia est adipisicing qui id sint aliquip sunt ullamco excepteur incididunt labore amet laborum et dolore anim esse",
+                      })
+                      </div>
+                    </li>
+                    <li class="result__item">
+                      <div class="result__img">
+                        <img src="./images/content/result4.jpg" alt="photo">
+                      </div>
+                      <div class="result__article">
+                        @@include('./components/_article.html', {
+                          "subtitle": "",
+                          "title": "Occaecat Quis Adipisicing",
+                          "author": "Mitchell Bell",
+                          "Mounth": "August",
+                          "number": "29,",
+                          "Year": "2016",
+                          "readtime": false,
+                          "read": "6",
+                          "body": "Amet minim quis irure esse occaecat exercitation eu reprehenderit consequat veniam quis irure et tempor ut qui veniam fugiat reprehenderit non do exercitation dolor ex amet nulla aliqua exercitation consectetur occaecat ea adipisicing Lorem aute.",
+                      })
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </section>
+
+            </div>  
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>

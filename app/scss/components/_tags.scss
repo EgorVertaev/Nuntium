@@ -1,5 +1,6 @@
 .tags {
   padding-top: 194px;
+  margin-bottom: 155px;
 
   &__wrapper {
     display: flex;
@@ -9,6 +10,7 @@
 
   &__form {
     margin-bottom: 60px;
+    position: relative;
   }
 
   &__imput {
@@ -24,9 +26,9 @@
   }
 
   &__btn {
-  }
-
-  &__inner {
+    position: absolute;
+    right: 20px;
+    top: 20px;
   }
 
   &__list {
@@ -57,3 +59,45 @@
     border-radius: 50px;
   }
 }
+
+.search-result {
+
+  &__form {
+
+  }
+
+  &__wrapper {
+    padding-top: 193px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 117px;
+
+  }
+}
+
+
+.result {
+  padding-top: 57px;
+
+  &__item {
+    display: flex;
+    margin-bottom: 60px;
+  }
+
+  &__img {
+    margin-right: 37px;
+  }
+
+  &__article {
+    max-width: 540px;
+  }
+}
+
+
+
+
+
+
+
+

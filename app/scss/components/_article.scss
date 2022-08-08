@@ -6,10 +6,15 @@
   }
 
   &__title {
+    display: block;
     font-family: $f-LB;
     font-size: 33px;
     font-weight: 700;
     margin-bottom: 12px;
+    
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   &__info {
